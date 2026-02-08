@@ -1,0 +1,25 @@
+import pandas as pd
+import os
+
+# Create 'data' folder if it doesn't exist
+os.makedirs("data", exist_ok=True)
+
+# Sample data
+data = {
+    "label": ["ham", "spam", "ham", "spam", "ham", "spam"],
+    "message": [
+        "Hello, how are you?",
+        "Congratulations! You won a free ticket!",
+        "Are we meeting at 3 PM?",
+        "Click here to claim your prize!",
+        "Don't forget your homework.",
+        "You have been selected for a cash reward!"
+    ]
+}
+
+# Convert to DataFrame
+df = pd.DataFrame(data)
+
+# Save CSV
+df.to_csv("data/spam.csv", index=False, encoding="utf-8")
+print("✅ data/spam.csv created successfully!")
