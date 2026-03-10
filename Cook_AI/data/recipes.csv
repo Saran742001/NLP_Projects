@@ -1,0 +1,4 @@
+id,recipe_name,ingredients,instructions,prep_time,cook_time,difficulty
+1,Sample Pasta,"pasta, water, salt","Boil water. Add pasta. Cook for 10 mins.",10,20,Easy
+2,Spicy Ramen,"ramen, onions, chilies","boil water add ramen and spices",5,15,Medium
+3,Chicken Biryani,"chicken, rice, onion, spices","cook chicken then mix rice",20,40,Easy
